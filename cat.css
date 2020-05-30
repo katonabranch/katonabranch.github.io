@@ -1,0 +1,109 @@
+body{
+    background-color: #FDCC6D;
+    padding: 0;
+    margin: 0;
+}
+/* Cat Styles */
+.cat{
+    background-color: #003049;
+    height: 250px;
+    width:270px;
+    border-radius: 90%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.nose{
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 10px solid #FF928B;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: 160px;
+    left: 125px
+}
+.ear-l, .ear-r{
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid #003049;
+    border-left: 70px solid transparent;
+    border-right: 40px solid transparent;
+    position: relative;
+    z-index: -1;
+}
+.ear-l{
+    bottom: 42px;
+    transform: rotate(-25deg);
+}
+.ear-r{
+    bottom: 125px;
+    left: 155px;
+    transform: rotate(25deg) scaleX(-1);
+}
+.inner1{
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid #FF9B54;
+    border-left: 70px solid transparent;
+    right: 70px;
+    position: relative;
+}
+.inner2{
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid #FF9B54;
+    border-right: 70px solid transparent;
+    position: relative;
+    right: 70px;
+    transform: scaleX(-1)
+}
+.eye-l, .eye-r{
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 15px;
+    border-radius: 35px;
+    position: relative;
+}
+.eye-l{
+    bottom: 60px;
+    left: 75px
+}
+.eye-r{
+    bottom: 100px;
+    left: 175px
+}
+.whisker1, .whisker2, .whisker3, .whisker4{
+    background-color: #003049;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
+.whisker1{
+    position: relative;
+    bottom: 73px;
+    right: 25px;
+    transform: rotate(0deg);
+}
+.whisker2{
+    position: relative;
+    bottom: 65px;
+    right: 18px;
+    transform: rotate(-10deg)
+}
+.whisker3{
+    position: relative;
+    bottom: 75px;
+    left: 225px;
+    transform: rotate(10deg);
+}
+.whisker4{
+    position: relative;
+    bottom: 103px;
+    left: 235px;
+    transform: rotate(0deg);
+}
