@@ -6,7 +6,6 @@ body{
 .container{
     height: 500px;
     width: 450px;
-    border:3px solid white;
     position: absolute;
     margin: auto;
     top: 0;
@@ -28,3 +27,89 @@ input[type="checkbox"]{
     background-color: #619b8a;
     height: 30px;
     width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top:100px;
+    right: 15px;
+    outline: none;
+    cursor: ;
+}
+.speaker{
+    position: absolute;
+    top:50px;
+    right: 7px;
+}
+.speaker>div{
+    background-color: #106575;
+    height: 6px;
+    width: 50px;
+    margin-bottom: 5px;
+}
+.slot{
+    background-color: #106575;
+    height: 6px;
+    width: 220px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 12px;
+    left: 18px;
+}
+.antenna{
+    background-color: #323031;
+    height: 20px;
+    width: 60px;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    top: -20px;
+    left: 50px;
+}
+.a{
+    background-color: #323031;
+    height: 70px;
+    width: 6px;
+    border-radius: 6px;
+    position: relative;
+}
+.a:nth-child(1){
+    bottom: 60px;
+    left: 10px;
+    transform: rotate(-30deg);
+}
+.a:nth-child(2){
+    bottom: 130px;
+    left: 45px;
+    transform: rotate(30deg);
+}
+.stand1, .stand2{
+    background-color: #106575;
+    height: 10px;
+    width: 18px;
+    position: absolute;
+    border-radius: 0 0 15px 15px;
+    bottom: -10px;
+}
+.stand1{
+    left: 45px;
+}
+.stand2{
+    right: 45px;
+}
+input[type="checkbox"]:before{
+    content: '';
+    position: absolute;
+    background-color: #caffd0;
+    width: 170px;
+    height: 140px;
+    bottom: -42px;
+    right: 45px;
+    border-radius: 5px;
+    border:10px solid #106575;
+    background-size: 160px 140px;
+    background-image: url("blm_img.png");
+    pointer-events: none;
+}
+input:checked[type="checkbox"]:before{
+    background-size: 100px;
+    animation:none;
+    background-image: none;
+}
