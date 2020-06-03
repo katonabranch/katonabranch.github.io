@@ -5,6 +5,14 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color: black;
 }
+.wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+.wrapper > div{
+    padding: 10em;
+}
 
 /*TV CSS start*/
 .tv-container{
@@ -13,7 +21,7 @@ body{
     position: relative;
     margin: auto;
     padding: auto;
-    background-color:  #a1c181;
+    background-color:  #ff9b54;
 }
 .click{
     position: relative;
@@ -24,7 +32,7 @@ body{
     height: 430px;
     width: 450px;
     position: relative;
-   /*border: 3px solid white;*/
+    /*border: 3px solid white;*/
     margin: auto;
     top: 0;
     bottom: 0;
@@ -122,12 +130,12 @@ input[type="checkbox"]:before{
     right: 45px;
     border-radius: 5px;
     border:10px solid #106575;
-    background-size: 160px 140px;
-    background-image: url("blm_img.png");
+    background-image: none;
     pointer-events: none;
 }
 input:checked[type="checkbox"]:before{
     background-size: 100px;
     animation:none;
-    background-image: none;
+    background-image: url("blm_img.png");
+    background-size: 160px 140px;
 }
