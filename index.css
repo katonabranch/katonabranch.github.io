@@ -1,14 +1,30 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #fdcc6d;
-    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:rgb(255, 255, 255)
+    background-color: #86BBD8;;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+/*TV CSS start*/
+.tv-container{
+    width: auto;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    padding: auto;
+    background-color:  #a1c181;
+}
+.click{
+    position: relative;
+    text-align: center;
+    letter-spacing: 6px;
 }
 .container{
-    height: 500px;
+    height: 430px;
     width: 450px;
-    position: absolute;
+    position: relative;
+   /*border: 3px solid white;*/
     margin: auto;
     top: 0;
     bottom: 0;
@@ -19,7 +35,7 @@ body{
     background-color: #233d4d;
     height: 200px;
     width: 270px;
-    position: relative;
+    position: absolute;
     top: 200px;
     left: 90px;
     border-radius: 15px;

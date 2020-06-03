@@ -1,8 +1,8 @@
-body{
+/*body{
     background-color: #FDCC6D;
     padding: 0;
     margin: 0;
-}
+} */
 /* Cat Styles */
 .cat{
     background-color: #003049;
@@ -107,3 +107,5 @@ body{
     left: 235px;
     transform: rotate(0deg);
 }
+
+/* Lion CSS starts here*/

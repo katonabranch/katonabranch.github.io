@@ -1,8 +1,8 @@
-body{
+/*body{
     background-color: #86BBD8;
     padding: 0;
     margin: 0;
-}
+} */
 /* Lion styles*/
 .mane{
     background-color: #F26419;
@@ -56,18 +56,18 @@ body{
     right: 136px;
     transform: scaleX(-1)
 }
-.eye-l, .eye-r{
+.lioneye-l, .lioneye-r{
     position: absolute;
     width: 20px;
     height: 20px;
     background-color: #293241;
     border-radius: 50%;
 }
-.eye-l{
+.lioneye-l{
     top: 160px;
     left: 120px;
 }
-.eye-r{
+.lioneye-r{
     top: 160px;
     right: 120px
 }
