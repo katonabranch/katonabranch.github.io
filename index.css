@@ -1,19 +1,17 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #86BBD8;;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: #86BBD8;
+    font-family: "Courier New", Courier, monospace;
     color: black;
 }
-.wrapper{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-content: center;
+.intro{
+    position: relative;
+    padding: 10px;
+    background-color: #ddd;
+    height: 50px;
+    text-align: center;
 }
-.wrapper > div{
-    padding: 10em;
-}
-
 /*TV CSS start*/
 .tv-container{
     width: auto;
