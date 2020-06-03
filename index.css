@@ -28,7 +28,8 @@ body{
     text-align: center;
     letter-spacing: 6px;
 }
-.container{
+#container{
+    display: flex;
     height: 430px;
     width: 450px;
     position: relative;
