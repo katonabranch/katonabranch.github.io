@@ -2,6 +2,8 @@ body{
     padding: 0;
     margin: 0;
     background-color: #fdcc6d;
+    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(255, 255, 255)
 }
 .container{
     height: 500px;
@@ -32,7 +34,7 @@ input[type="checkbox"]{
     top:100px;
     right: 15px;
     outline: none;
-    cursor: ;
+    cursor: pointer;
 }
 .speaker{
     position: absolute;
