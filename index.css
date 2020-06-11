@@ -37,15 +37,14 @@ body{
     position: relative;
 }
 .shapecontainer{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #a1c181;
     width: auto;
     height: auto;
     position: relative;
     justify-content: center;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-
 }
 .grid-container {
     display: grid;
@@ -57,8 +56,6 @@ body{
     border: 0px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
   }
-
-
 /* Shapes start*/
 .square{
     background-color: white;
